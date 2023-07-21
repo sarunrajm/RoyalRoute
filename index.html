@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoyalRoute</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <!-- navbar -->
+           <div class="image">
+           
+                
+         <nav class="navbar navbar-expand-lg ">
+            
+            <div class="container">
+                
+              <a class="navbar-brand" id="navbrand1" href="#"><h1><span class="first">Royal</span><span class="second">Route</span></h1></a>
+
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+
+                    <a class="nav-link active" aria-current="page" href="#" style="color: aliceblue;">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: aliceblue;">Trip ideas</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" style="color: aquamarine;" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Destinations
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">North America</a></li>
+                      <li><a class="dropdown-item" href="#">Asia</a></li>
+                      <li><a class="dropdown-item" href="#">Africa</a></li>
+                      <li><a class="dropdown-item" href="#">Europe</a></li>
+                      <li><a class="dropdown-item" href="#">South America</a></li>
+
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Somewhere else</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: aliceblue;">Packages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: aliceblue;">Membership</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: aliceblue;">Support</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="font">
+          <h1 class="head1">Discover</h1>
+          <h1 class="head2">another</h1>
+          <h1 class="head3">destination.</h1>
+          </div>
+
+          <!-- button -->
+          <button type="button" class="btn btn-dark" id="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Enquery</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Please share your details</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body mt-1 mb-5">
+        <form>
+          <div class="mb-1">
+            <label for="recipient-name" class="col-form-label">Name:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-1">
+            <label for="recipient-name" class="col-form-label">Email:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-1">
+            <label for="recipient-name" class="col-form-label">PHONE NUMBER:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+
+          <div class="mb-1">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+<h1 class="header text-center m-5">HONEYMOON PACKAGES!</h1>
+
+<!-- cards -->
+
+<div class="d-flex justify-content-evenly">
+    <div class="card" style="width: 18rem;">
+      <img src="./img/asia.jpg" height="360px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title text-center">Asia <br>Packages</h4>
+        <h6></h6>
+        <p class="card-text small">Traveling to Asia unveils a captivating blend of vibrant cultures, ancient traditions, and breathtaking landscapes. From the majestic Great Wall of China to the enchanting charm of Angkor Wat, each destination offers a unique experience. Indulge in tantalizing flavors, explore serene backwaters, and embrace the warm hospitality of Asia's diverse tapestry.</p>
+
+        <div class="d-flex justify-content-center mt-4">
+        <a href="#" class="btn btn-dark">Buy tickets</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" style="width: 18rem;">
+      <img src="./img/alex-azabache-4_5SEmawYno-unsplash.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title text-center">South America<br>Packages</h4>
+        <p class="card-text small">Embarking on a journey to South America unveils a world of breathtaking landscapes, rich history, and vibrant cultures. From the mystical ruins of Machu Picchu in Peru to the colorful streets of Cartagena in Colombia, this continent is a treasure trove of wonders.  South America beckons adventurers with its diverse landscapes, ancient civilizations, welcoming people.</p>
+
+        <div class="d-flex justify-content-center mt-4">
+
+        <a href="#" class="btn btn-dark">Buy tickets</a>
+      </div>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./img/europe.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title text-center">Europe<br>Packages</h4>
+        <p class="card-text small">Europe is a living museum, where history, art, and culture intertwine. From the romantic streets of Paris to the ancient ruins of Rome, each city reveals its own charm. Indulge in culinary delights, marvel at iconic landmarks, and immerse yourself in the diverse landscapes and rich cultural heritage that Europe has to offer.</p>
+      <div class="d-flex justify-content-center mt-5">
+        <a href="#" class="btn btn-dark">Buy tickets</a>
+      </div>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="./img/North America.jpg" height="360px" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h4 class="card-title text-center">North America<br>Packages</h4>
+        <p class="card-text small">Traveling to North America is an immersive experience filled with diverse landscapes, vibrant cities, and a rich cultural tapestry. From the awe-inspiring natural wonders of the Grand Canyon to the iconic skyline of New York City, this continent offers a multitude of captivating destinations. Indulge in the melting pot of flavors, that awaits you in North America.</p>
+<div class="d-flex justify-content-center mt-4">
+          <a href="#" class="btn btn-dark">Buy tickets</a>
+    </div>      
+  </div>
+ </div>
+</div>
+ <!-- package button -->
+<div class="d-flex justify-content-center m-5">
+ <a class="button1 btn btn-primary" href="#" role="button">More Packages</a>
+</div>
+
+<h1 class="special m-5">SPECIAL EUROPEAN TOUR</h1>
+
+<!-- carousel -->
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <div class="carousel-inner m-3">
+    <div class="carousel-item active" data-bs-interval="1000" >
+      <img src="./img/uk.jpg" class="d-block w-100" height="700px" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>
+          Glastonbury Festival (United Kingdom)
+        </h5>
+        <p>Held in Somerset, England, Glastonbury is one of the largest and most iconic music festivals in the world. It features a wide range of musical genres, including rock, pop, electronic, and more.<
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="1000" >
+      <img src="./img/tommorrowland.jpg" class="d-block w-100" height="700px" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Tomorrowland (Belgium)</h5>
+        <p>Tomorrowland is a massive electronic dance music festival held in Boom, Belgium. Known for its elaborate stage designs and impressive lineup of international DJs, it attracts music enthusiasts from around the globe.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="1000" >
+      <img src="./img/germany.jpg" class="d-block w-100" height="700px" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Oktoberfest (Germany)</h5>
+        <p>Held annually in Munich, Oktoberfest is the world's largest beer festival. Visitors can enjoy traditional Bavarian food, music, and, of course, beer in large beer tents and experience the festive atmosphere.</p>
+      </div>
+    </div>
+    <!-- <div class="carousel-item" data-bs-interval="1000" >
+      <img src="./img/holi.jpg" class="d-block w-100" height="900px" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Holi (India)</h5>
+        <p> Holi is a vibrant and joyous festival celebrated with enthusiasm across India. It involves throwing colored powders and water at each other, along with music, dance, and festive delicacies. Holi signifies the arrival of spring and the triumph of good over evil.</p>
+      </div> -->
+    <!-- </div> -->
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- youtube -->
+<div class="collage d-flex justify-content-evenly">
+<div class="travelvideo">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y6E1L6KVwYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen controls autoplay></iframe>
+</div>
+<div class="imagecollage">
+<img class="imagecollage" src="./img/colagefest.png" height="315px" width="560px" alt="">
+</div>
+</div>
+
+<!-- tour to asia -->
+
+
+<h1 class="tourasia m-5 text-center">TOUR TO ASIA</h1>
+
+<div class="d-flex justify-content-evenly m-5">
+  <div class="card sura" style="width: 18rem; position: relative;" >
+    <div class="tourtoasia d-flex justify-content-center flex-column align-items-center" style="position: absolute; height: 360px; width: 18rem;">
+      <h1>BANKOK</h1>
+      <h4>Rs 21,000</h4>
+    </div>
+    <img src="./img/bankok.jpg" height="360px" class="card-img-top" alt="...">
+  </div>
+        <div class="card sura" style="width: 18rem;">
+          <div class="tourtoasia d-flex justify-content-center flex-column align-items-center" style="position: absolute; height: 360px; width: 18rem;">
+            <h1>TAJMAHAL</h1>
+            <h4>Rs 15,000</h4>
+          </div>
+      <img src="./img/tajmahal.jpg" height="360px" class="card-img-top" alt="...">
+    </div>
+      <div class="card sura" style="width: 18rem;">
+        <div class="tourtoasia d-flex justify-content-center flex-column align-items-center" style="position: absolute; height: 360px; width: 18rem;">
+          <h1>TOKYO</h1>
+          <h4>Rs 24,000</h4>
+        </div>
+        <img src="./img/tokyo.jpg" height="360px" class="card-img-top" alt="...">
+      </div>
+        <div class="card sura" style="width: 18rem;">
+          <div class="tourtoasia d-flex justify-content-center flex-column align-items-center" style="position: absolute; height: 360px; width: 18rem;">
+            <h1>SINGAPORE</h1>
+            <h4>Rs 17,000</h4>
+          </div>
+          <img src="./img/singapore.jpg" height="360px" class="card-img-top" alt="...">
+        </div>
+</div>
+<hr class="hr">
+
+<!-- exclusive -->
+<div class="premium text-center m-5">
+  <h1>OUR PREMIUM FEATURES!</h1>
+  <em>WE WILL MAKE YOUR DREAMS COME TRUE</em>
+</div>
+
+
+<div class="support d-flex justify-content-evenly m-5">
+  <div class="card" style="width: 10rem;">
+    <img src="./img/tech-support.gif" class="card-img-top" alt="...">
+    <h6 class="text-center">TECH SUPPORT</h6>
+    <a class="text-center text-decoration-none" href="">Learn more</a>
+  </div>
+    <div class="card" style="width: 10rem;">
+      <img src="./img/delivery-truck.gif" class="card-img-top" alt="...">
+      <h6 class="text-center">TRANSPORTATION</h6>
+      <a class="text-center text-decoration-none" href="">Learn more</a>
+    </div>
+      <div class="card" style="width: 10rem;">
+        <img src="./img/camping.gif" class="card-img-top" alt="...">
+        <h6 class="text-center">CAMEPFIRE</h6>
+        <a class="text-center text-decoration-none" href="">Learn more</a>
+      </div>
+        <div class="card" style="width: 10rem;">
+          <img src="./img/guide.gif" class="card-img-top" alt="...">
+          <h6 class="text-center">TOUR GUIDE</h6>
+          <a class="text-center text-decoration-none" href="">Learn more</a>
+
+        </div>
+</div>
+
+
+<!-- review -->
+
+<div class="review m-5">
+  <img src="./img/rating.png" height="40px" width="40px" alt="">
+  <h4>OUR CUSTOMERS LOVE</h4>
+
+  <div class="d-flex  justify-content-evenly">
+    <div class="card" style="width: 18rem;">
+      <img src="./img/couple2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">RYAN & RIYA</h5>
+        <p class="card-text">"Exceptional service and attention to detail!"</p>
+    </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="./img/couple1.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">JAMES & ALICE</h5>
+        <p class="card-text">"RoyalRoute made our dream vacation a reality."</p>
+    </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="./img/couple3.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ALAN & NATASHA</h5>
+        <p class="card-text">"Excellent service from start to finish"</p>
+    </div>
+
+  </div>
+
+</div>
+</div>
+
+<!-- footer -->
+
+
+  <div class="row" style="background-color: rgb(151, 151, 151); width: 100%; margin: 0px;">
+
+      <div class="col-md-4 hss-ending ">
+          <div style="margin-left: 150px;">
+            <h2 class="honey ps-4 mt-4" style="color: rgb(0, 0, 0);" >ABOUT US</h2>
+  
+            <!-- <h5 style="font-size: 14px;">OUR COMPANY</h5>
+            <h5 style="font-size: 14px;">MANAGEMENT</h5>
+            <h5 style="font-size: 14px;">CONNECTION</h5>
+            <h5 style="font-size: 14px;">REPORTS</h5>
+            <h5 style="font-size: 14px;">NETWORK</h5> -->
+            <ul class="">
+                <li style="color: rgb(0, 0, 0); list-style: none;">OUR COMPANY</li>
+                <li style="color: rgb(0, 0, 0); list-style: none;">MANAGEMENT</li>
+                <li style="color: rgb(0, 0, 0); list-style: none;">CONNECTION</li>
+                <li style="color: rgb(0, 0, 0); list-style: none;">REPORTS</li>
+                <li style="color: rgb(0, 0, 0); list-style: none;">NETWORK</li>
+            </ul>
+          </div>
+    </div>
+      <div class="col-md-4">
+
+      
+      <div class="icon-set mt-5 pt-5">
+          <!-- linkedin -->
+          <div class="icon">
+              <a href="">
+                  <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+          </div>
+          <!-- twitter -->
+          <div class="icon">
+              <a href="">
+                  <i class="fa-brands fa-twitter"></i>
+              </a>
+          </div>
+          <!-- facebook -->
+          <div class="icon">
+              <a href="">
+                  <i class="fa-brands fa-facebook"></i>
+              </a>
+          </div>
+          <!-- whatsapp -->
+          <div class="icon">
+              <a href="">
+                  <i class="fa-brands fa-whatsapp"></i>
+              </a>
+          </div>
+          <!-- instagram -->
+          <div class="icon">
+              <a href="">
+                  <i class="fa-brands fa-instagram"></i>
+              </a>
+          </div>
+      </div>
+      </div>
+      <div class="col-md-4">
+
+          <img class="img-fluid ms-5 ps-5 mt-3" src="./img/honeymoon.png" alt="myavy" style="width: 200px;">
+      </div>
+      <footer style="text-align: center;">
+        <p>Sarun &copy; 2023 RoyalRoute. All rights reserved.</p>
+      </footer>
+      
+
+
+  </div>
+
+
+</body>
+</html>
